@@ -1,0 +1,31 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+#忽略class文件
+*.class
+#忽略maven编译的target文件夹
+target/
+#忽略eclipse的工程文件
+.classpath
+.project
+.settings/
+*.log
+/logs/
+*.gz
+rebel.xml
+rebel-remote.xml
